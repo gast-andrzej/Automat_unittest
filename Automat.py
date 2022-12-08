@@ -203,8 +203,8 @@ class AutomatUnittests:
                             answer_if_fail = input(
                                 "Here is You'r answer, if this test fail (easy, it's default str, don't worry)")
                             opener.write(f"\n    def test_positive_{i}(self):\n"
-                                         f"        obj = {varex}"
-                                         f"        instance = {varex_end}"
+                                         f"        obj = {varex}\n"
+                                         f"        instance = {varex_end}\n"
                                          f"        self.assertIsInstance(obj, instance, '{answer_if_fail}')\n"
                                          f"\n"
                                          f"")
@@ -214,8 +214,8 @@ class AutomatUnittests:
                             answer_if_fail = input(
                                 "Here is You'r answer, if this test fail (easy, it's default str, don't worry)")
                             opener.write(f"\n    def test_positive_{i}(self):\n"
-                                         f"        obj = {varex}"
-                                         f"        instance = {varex_end}"
+                                         f"        obj = {varex}\n"
+                                         f"        instance = {varex_end}\n"
                                          f"        self.assertIsInstance(obj, instance, '{answer_if_fail}')\n"
                                          f"\n"
                                          f"")
@@ -225,8 +225,8 @@ class AutomatUnittests:
                             answer_if_fail = input(
                                 "Here is You'r answer, if this test fail (easy, it's default str, don't worry)")
                             opener.write(f"\n    def test_negative_{i}(self):\n"
-                                         f"        obj = {varex}"
-                                         f"        instance = {varex_end}"
+                                         f"        obj = {varex}\n"
+                                         f"        instance = {varex_end}\n"
                                          f"        self.assertIsInstance(obj, instance, '{answer_if_fail}')\n"
                                          f"\n"
                                          f"")
@@ -236,8 +236,8 @@ class AutomatUnittests:
                             answer_if_fail = input(
                                 "Here is You'r answer, if this test fail (easy, it's default str, don't worry)")
                             opener.write(f"\n    def test_negative_{i}(self):\n"
-                                         f"        obj = {varex}"
-                                         f"        instance = {varex_end}"
+                                         f"        obj = {varex}\n"
+                                         f"        instance = {varex_end}\n"
                                          f"        self.assertIsInstance(obj, instance, '{answer_if_fail}')\n"
                                          f"\n"
                                          f"")
